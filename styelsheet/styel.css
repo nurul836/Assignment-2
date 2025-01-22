@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.maindiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.navbar{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.school{
+    font-size: 50px;
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+
+
+
+}
+
+
+.lihome{
+   color: rgb(254, 163, 1);
+   font: Quicksand;
+   /* font-size: 20px; */
+   width: 200px;
+
+}
+
+
+.logopng{
+    width: 50px;
+    height: 50px;
+}
+
+.ulli ul{
+    display: flex;
+    direction: none;
+    list-style: none;
+    gap: 50px;
+    /* text-decoration: none; */
+}
+
+.nnnnn a{
+   text-decoration: none;
+   font-size: 20px;
+   font-family: Quicksand;
+
+}
+
+.Home1{
+   color: rgb(254, 163, 1);
+}
+
+.About1{
+   color:rgb(1, 172, 253) ;
+}
+
+.Facilities1{
+   color: rgb(5, 212, 223);
+}
+
+.Admission1{
+
+   color:rgb(93, 88, 239) ;
+}
+
+.ulli{
+    display: flex;
+    gap: 100px;
+}
+
+.btn{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    /* Orange */
+    background: rgb(254, 163, 1);
+    border: none;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: Quicksand;
+    }
+    #bar{
+        display: none;
+    }
+
+    .marquee{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       /* height: 0%; */
+       /* padding: 0 240px; */
+       font-size: 20px;
+      }
+      
+   .marquee marquee{
+       background-color:white;
+      padding:20px 0;  
+      border-radius: 10px;
+      box-shadow:1px 1px 5px black; 
+      font-family: Quicksand;
+    }
+
+
+    .maindiv-paragrap{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* padding: 500px; */
+    }
+
+    .jamela{
+        font-size: 56px;
+        padding: 0px;
+    }
+
+    .Empowering{
+     color: rgb(254, 163, 1);
+     font-family: Quicksand;
+     }
+
+     .students{
+        color: rgb(17,17,17);
+        font-family: Quicksand;
+     }
+
+     .towards{
+        color: rgb(1,172,253);
+     }
+
+     .pragrap{
+        color: rgb(17, 17, 17);
+        font-family: Quicksand;
+        font-size: 20px;
+        font-weight: 400;
+                 
+     }
+
+     .btn2{
+        color: rgb(255, 255, 255);
+        font-family: Quicksand;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        background-color:rgb(17,17,17);
+        border-radius: 10px;
+        width: 197px;
+        height: 50px;
+        margin: 50px 0px;
+        /* padding: 20px 20px; */
+        
+     }
+
+     .ttt{
+        background-image: url(../assets/bg.png);       
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+         /* text-align: center;
+         /* background-position: center; */
+         /* background-size: cover; */
+         /* width: 800px;
+         height: 900px; */
+         /* right: 20px; */ */
+         }
+
+         .Standard{
+            font-family:Quicksand;
+            font-size: 46px;
+            padding: 50px;
+            
+
+         }
+
+         .sss{
+            width: 80%;
+            /*display: flex;
+            flex-direction: column; */
+            /* align-items: center; */
+            /* justify-content: center; */ 
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: space-between; */
+            /* width: 100%; */
+         }
+
+         .secenddiv{
+            /* width: 80%; */
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            /* justify-content: space-between; */
+            /* align-items: center; */
+         }
+
+     .kinder{
+        width: 367.8px;
+        height: 476.78px;
+        box-sizing: border-box;
+        border: 0.94px solid rgb(222, 245, 255);
+        border-radius: 18.86px;
+        box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+        /* background-color: linear-gradient( ,rgba(0,0,0)); */
+        background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+        /* display: flex; */
+        /* align-items: center; */
+        text-align: center;
+        font-family: Quicksand;
+     }
+     .ccc{
+        font-size: 25px;
+        
+     }
+
+     .Read-more1{
+        text-decoration: none;
+        color: rgb(100, 200, 255);
+        font-family: Quicksand;
+        font-weight: 700;            
+     }
+
+     .Elementary{
+        width: 367.8px;
+        height: 476.78px;
+        /* box-sizing: border-box; */
+        box-sizing: border-box;
+        border: 0.94px solid rgb(255, 244, 220);
+        border-radius: 18.86px;
+        box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+        background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+        text-align: center;
+        font-family: Quicksand;
+     }
+
+     .Read-more2{
+        text-decoration: none;
+        font-family: Quicksand;
+        font-weight: 700;
+        color: rgb(240,170,0);
+     }
+     .Middle{
+        width: 367.8px;
+        height: 476.78px;
+        box-sizing: border-box;
+        border: 0.94px solid rgb(242, 232, 255);
+        border-radius: 18.86px;
+        box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+        background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+        text-align: center;
+        font-family: Quicksand;
+     }
+
+     .Read-more3{
+        text-decoration: none;
+        font-family: Quicksand;
+        font-weight: 700;
+        color: rgb(135, 0, 255);
+     }
+
+     .arrow i{
+        /* width: 60px; */
+        /* height: 60px; */
+        background-color: rgb(254, 163, 1);
+        border-radius: 30px;
+        /* display: flex; */
+        align-items: center;
+        /* margin-top: 20px; */
+        margin: 20px 5px;
+        padding: 20px;
+        font-size: 24px;
+        font-weight: 600;
+        color: #fff;
+   }
+
+   .nnn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image:url(../assets/bg.png); */
+    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+       }
+.ooo{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* display: flex; */
+    /* text-align: center; */
+}
+
+.Our{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px;
+}
+
+.afun{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    /* padding: 50px 50px; */
+    /* align-items: center; */
+    /* margin: 70px 70px; */
+    padding: 50px 50px;
+   }
+
+   .too{
+    position: relative;
+   }
+   .November{
+    width: 200px;
+    height: 50px;
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    border: none;
+    color: #fff;
+    font-family: Quicksand;
+    font-size: 10px;
+    position: absolute;
+    top: -30px;
+    left: 50px;
+    
+
+
+   }
+
+   .Beautiful{
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    /* margin: 0 70px; */
+    padding: 0 50px;
+   }
+
+   .mmm{
+    /* display: flex; */
+       }
+
+   .AA{
+    width: 540.27px;
+    /* height: 630.52px; */
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+
+    /* background: rgb(255, 255, 255); */
+   }
+
+   .out{
+    display: flex;
+    gap: 20px;
+   
+   }
+
+   .story{
+        border-radius: 16px 16px 0px 0px;
+        background: url(),rgb(217, 217, 217);
+   }
+
+   .divmini{
+        width: 290.69px;
+        /* height: 301.61px; */
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+   }
+   .story2{
+        width: 291px;
+        /* height: 177px; */
+        border-radius: 16px 16px 0px 0px;
+        background: url(),rgb(255, 255, 255);
+   }
+
+   .November2{
+        width: 174px;
+        height: 30px;
+        border-radius: 47.93px;
+        background: rgb(149, 178, 38);
+        font-size: 8px;
+        border: none;
+        color: #fff;
+        position: absolute;
+        top: -50px;
+        left: 25px;
+   }
+
+   .November3{
+    width: 174px;
+    height: 30px;
+    border-radius: 47.93px;
+    font-size: 10px;
+    border: none;
+    color: #fff;
+    position: absolute;
+    top: -50px;
+    left: 25px;
+   background: rgb(93, 88, 240);
+
+   }
+
+   .Find{
+        font-family: Quicksand;
+        font-size: 15.34px;
+        font-weight: 700;
+        color:rgb(0, 0, 0);
+        margin:30px;
+   }
+
+   .small{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+   }
+
+   .View-All{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 197px;
+    height: 70px;
+    /* height: 50px; */
+    gap: 10;
+    margin: 80px 0px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: #fff;
+    border: none;
+    text-align: center;
+      }
+
+      .nila{
+        /* Rectangle 17 */
+        background: rgb(1, 172, 253);;
+        /* width: 1439px; */
+        /* height: 519px; */
+        /* left: 1px; */
+        /* top: 2572px; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding: 0 110px; */
+        
+      }
+      .pha{
+        /* display: flex; */
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 80px 0;
+        justify-content: space-between;
+        grid-column-gap: 100px;
+      }
+
+      .haaa{
+        /* display: flex; */
+        /* width: 80%; */
+        /* margin: 40%; */
+      }
+
+      .up{
+        /* display:grid; */
+        gap: 20px;
+        /* width: 80%; */
+        display: flex;
+        align-items: center;
+        
+        
+        
+      }
+      .looo{
+        /* display: flex; */
+        width: 90px;
+      
+      }
+
+      
+      .hafa{
+          /* display: grid; */
+          padding: 50px;
+        }
+        
+        .hafa ul{
+            flex-direction: column;
+            /* gap: 10px; */
+            /* padding: 0; */
+            list-style: none;
+            color: #fff;
+            /* padding: 0; */
+         }
+        
+        
+        .kids-Education{
+            color: rgb(255, 255, 255);
+            font-family: Quicksand;
+            font-size: 42.14px;
+                                   
+         }
+        .eee{
+          color: rgb(255, 255, 255);
+          font-family: Quicksand;
+          color: rgb(255, 255, 255);
+          font-family: Quicksand;
+          font-size: 20px;      
+                        
+        }
+        .About-School{
+            color: rgb(255, 255, 255);
+            font-family: Quicksand;
+            font-size: 24px;
+            font-weight: 700;
+                    
+         }
+
+         .hasoapa{
+            display: flex;
+            gap: 20px;
+            color: rgb(255, 255, 255);
+            font-family: Quicksand;
+            font-size: 20px;
+            font-weight: 500;
+            text-decoration: none;
+                    
+       }
+
+       .hasoapa a{
+        text-decoration: none;
+        color: #fff;
+       }
+
+       .Keep-in{
+        color: rgb(255, 255, 255);
+        font-family: Quicksand;
+        font-size: 26px;
+        font-weight: 700;
+        /* text-decoration: none; */
+                
+       }
+       .i{
+        /* width: 50px;
+        /* display: flex; */
+        padding: 0px 5px;
+       }
+
+
+
+       @media screen and (max-width: 576px) {
+         .navbar{
+            /* width: 500px; */
+         }
+
+         .shadow{
+            box-shadow: 0px 1px 10px rgb(254, 163, 1);
+         }
+
+         .logo h2{
+            display: none;
+         }
+
+         .navbar ul{
+            display: none;
+         }
+
+         .navbar .btn{
+            display: none;
+
+         }
+
+         #bar{
+            display: block;
+         }
+
+        .maindiv-paragrap{
+            flex-direction: column-reverse;
+            text-align: center;
+         }
+         /* .jamela{
+            text-align: center;
+         }
+         .pragrap{
+            text-align: center;
+         }
+
+         .btn2{
+            text-align: center;
+         } */
+         .secenddiv{
+            grid-template-columns: repeat(1,1fr);
+         }
+
+         .AA{
+            display: none;
+         }
+
+         .small{
+            width: 100%;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+         }
+
+         .divmini{
+            width: 100%;
+         }
+
+         .divmini img{
+            width: 100%;
+         }
+
+         .nila{
+            /* width: 50px; */
+         }
+
+
+         .pha{
+            grid-template-columns: repeat(1,1fr);
+            /* width: 100px; */
+            /* padding: 20px 50px;
+             */
+         }
+         .About-School{
+            /* padding: 20px 50px; */
+         }
+         .arrow{
+            display: none;
+         }
+
+       .Standard{
+         font-size: 30px;
+
+
+         }
+        
+       }
